@@ -1,0 +1,16 @@
+Pipelines (and shell)
+---------------------
+
+Combining filters into more complicated data processing.
+
+e.g. $ cut -f2 data.tsv | sort | uniq -c | sort -n | tail -n 10
+
+---
+
+stdin / stdout / stderr
+
+cut -f2 file.txt | wc  =  stdout of cut --> stdin of wc
+
+uniq a.txt > out.txt   =  stdout of uniq --> file out.txt
+
+sort < data.csv        =  file data.csv --> stdin of sort

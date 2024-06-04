@@ -1,0 +1,22 @@
+Pipelines (cont.)
+-----------------
+
+Given cs1511.txt and cs2041.txt, create a pipeline that produces
+
+1. Top 3 highest marks (w/ zID) for COMP1511.
+
+	sort -t'|' -k2,2 cs1511.txt | tail -n3
+
+2. A list of zIDs, COMP1511 mark, and COMP2041 for each person that did both courses.
+
+	sort cs1511.txt > cs1511-sorted.txt
+	sort cs2041.txt > cs2041-sorted.txt
+	join -t'|' cs1511-sorted.txt cs2041-sorted.txt
+
+3. Similarly to 2, but sorted by COMP1511 mark (ascending) then COMP2041 mark (descending).
+
+	join -t'|' cs1511-sorted.txt cs2041-sorted.txt | sort -t'|' -k2,2 -k3,3r
+
+4. Number of different people that did either course.
+
+	cat cs1511.txt cs2041.txt | cut -d'|' -f1 | sort | uniq | wc -l

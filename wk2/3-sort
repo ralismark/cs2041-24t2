@@ -1,0 +1,28 @@
+Sort
+----
+
+Sort by column with -k
+
+e.g. -k3,3 -k1,1n
+e.g. -k1.3,1
+
+      1          .3      ,1       n
+     cols     offset    cols     sort
+   starting   in col    up to    mode
+      at
+
+---
+
+staff.txt:
+
+9381-1234   G Heiser       Newtown
+9621-1234   S Jha          Kingsford
+9663-1234   C Sammut       Randwick
+9663-9876   R Buckland     Randwick
+9665-4321   J A Shepherd   Botany
+9692-1234   A Taylor       Glebe
+9868-6789   M Pagnucco     North Ryde
+
+Can we:
+- Sort by phone number (sort -k1,1n staff.txt)
+- Sort by last name (no, need to put tabs around last name first)

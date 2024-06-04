@@ -1,0 +1,16 @@
+Grep
+----
+
+Print lines that contain matches anywhere on line.
+
+$ grep -E 'regex' file.txt
+
+-  grep / grep -G = basic regex
+- egrep / grep -E = extended regex (what we teach)
+-         grep -P = Perl-compatible regex
+- fgrep / grep -F = fixed string
+
+for help:
+$ man grep
+
+What are some other useful options/flags?

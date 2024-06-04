@@ -1,0 +1,18 @@
+Grep
+----
+
+Write a grep command that prints only
+
+1. preprocessor lines in main.c.
+
+    egrep '^#' main.c
+
+2. everything but preprocessor lines in main.c.
+
+   egrep -v '^#' main.c
+
+/*
+
+# haha
+
+*/

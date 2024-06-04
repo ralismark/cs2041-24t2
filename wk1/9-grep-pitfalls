@@ -1,0 +1,8 @@
+Grep (well, shell) Pitfalls
+---------------------------
+
+Why won't these work?
+
+1. grep -E int main program.c
+
+2. grep -E <p>|<br> /tmp/index.html

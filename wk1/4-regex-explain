@@ -1,0 +1,23 @@
+Regex (cont.)
+-------------
+
+Give
+
+a. Examples of strings that match
+b. Shortest string that matches
+c. Longest string that matches
+d. Number of matches
+
+for:
+
+1. ^Perl$
+
+2. ^Pe*r*l$
+
+3. ^Full-stop.$
+
+4. ^[1-9][0-9][0-9][0-9]$
+
+5. ^I (love|hate) programming in (Perl|Python) and (Java|C)$
+
+6. ^he(lo)*$

@@ -1,0 +1,14 @@
+Grep Doesn't Match Entire Line
+------------------------------
+
+Grep prints line if ANY PART of line matches.
+
+Use:
+
+- ^... for "at start of line"
+- ...$ for "at end of line"
+- ^...$ for "entire line"
+
+To show part of line that matches:
+
+$ grep -E --color=auto

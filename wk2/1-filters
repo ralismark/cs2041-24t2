@@ -1,0 +1,14 @@
+Filters
+-------
+
+Building blocks for more complicated data processing.
+
+15 covered in lectures -- can we name them all (+ brief summary)?
+
+
+
+cat     cut     tr
+head    sort    wc
+tail    join    tee
+grep    paste   find
+sed     uniq    xargs

@@ -1,0 +1,15 @@
+Regex
+-----
+
+Regex = REGular EXpressions = language for matching text (by defining a set of strings)
+
+Special symbols:
+
+- cat|dog
+- .
+- [] (e.g. [0-9], [^A-Fa-f01235679], [2357], [13])
+- * and +    e.g. moo* - mo moo mooo ...
+- ^ and $    e.g. ^moo   moo$
+- ?          e.g. moo? - mo moo
+- ()         e.g. c(at)?
+

@@ -1,0 +1,25 @@
+Regex (cont.)
+-------------
+
+Make a regex that matches
+
+
+1. The names "Barry", "Harry", "Larry" and "Parry"
+
+^[BHLP]arry$
+
+2. A string containing the word "hello" followed, some time later, by the word "world"
+
+hello.*world
+
+3. The word "calendar" and mis-spellings where 'a' is replaced with 'e' or vice-versa
+
+c[ae]l[ae]nd[ae]r
+
+4. A single positive integer
+
+[1-9][0-9]*
+
+5. A list of positive integers separated by commas, e.g. 2,4,8,16,32
+
+[1-9][0-9]*(,[1-9][0-9]*)*

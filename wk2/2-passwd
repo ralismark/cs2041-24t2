@@ -1,0 +1,16 @@
+Filters (cont.)
+---------------
+
+Consider passwd.txt
+
+1. Display lines belonging to class accounts (assuming that class accounts have a username that starts with either "cs", "se", "bi" or "en", followed by four digit)
+
+	grep -E '^(cs|se|bi|en)[0-9]{4}' passwd.txt --color=auto
+
+2. Display the first three lines of the file
+
+	head -n3 passwd.txt
+
+3. Get only the username and password of each user
+
+	cut -d: -f1-2 passwd.txt
