@@ -1,0 +1,44 @@
+Variables & Word Splitting
+--------------------------
+
+By default, splits arguments by spaces AFTER variable/command expansion.
+
+Pay attention to spaces!
+
+Given x=2 y='Y Y', what do these print?
+
+1. ./args hello x y world
+
+	- hello
+	- x
+	- y
+	- world
+
+2. ./args $y
+
+	- Y
+	- Y
+
+3. ./args "$y"
+
+	- Y Y
+
+4. ./args $(echo "$y")
+
+	- Y
+	- Y
+
+5. ./args $x$y$x
+
+	- 2Y
+	- Y2
+
+6. ./args $(ls)
+
+	...
+	- THIS
+	- IS
+	- A
+	- FILE
+	...
+

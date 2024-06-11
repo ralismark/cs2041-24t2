@@ -1,0 +1,14 @@
+Writing A Shell Script
+----------------------
+
+- permission denied --> chmod +x (script)
+
+(see files in data-2)
+
+1. For each .html file, if it contains <blink>, change extension to .html.bad
+
+	(see blinky-1.sh)
+
+2. What if we want to just change to just .bad?
+
+	(see blinky-2.sh)

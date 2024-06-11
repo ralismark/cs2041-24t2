@@ -1,0 +1,11 @@
+grades.sh
+---------
+
+grades.in will be passed in via standard input
+
+1. Print it out (i.e. just cat)
+2. Print out just the zID
+3. Print out zID+mark if mark is a number
+4. Print out zID and mark+1 where mark is a number
+
+	(see grades.sh)
