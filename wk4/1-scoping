@@ -1,0 +1,33 @@
+Scoping
+-------
+
+A student wrote `start_lab04.sh`:
+
+	#!/usr/bin/env dash
+	
+	cd ~/src/unsw/24t2/comp2041
+	
+	ex1=jpg2png
+	ex2=email_image
+	ex3=date_image
+	ex4=tag_music
+
+But running it doesn't seem to work:
+
+1. Didn't change directory
+2. Variables not visible
+
+Why not?
+
+	- variables are "local" to the shell script, aren't passed to shell that runs it
+	- similarly with current directory, script's current directory is independent of shell's current directory
+
+How can we make them work?
+
+	- source with . ./start_lab04.sh (period before the script name)
+	- this runs the contents of the script within the same shell, instead of a separate shell
+
+What about start_lab04.sh running another script?
+
+	- current directory passed by default (but independent as before)
+	- variables not passed unless you do `export ex1=jpg2png` or use `. ./start_lab04_print.sh`

@@ -1,0 +1,11 @@
+Which
+-----
+
+Make a shell script that uses ls to where a command is:
+
+	$ ./which.sh cat
+	-rwxr-xr-x 1 root root 43936 Sep 24 18:36 /bin/cat
+	$ ./which.sh clang
+	llrwxrwxrwx 1 root root 24 Jan 12 01:49 /usr/bin/clang -> ../lib/llvm-11/bin/clang
+	$ ./which.sh lost
+	lost not found

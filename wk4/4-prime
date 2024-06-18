@@ -1,0 +1,11 @@
+Prime
+-----
+
+Write ./is_prime.sh that prints out whether a number is prime, and exits non-zero if not prime:
+
+	$ ./is_prime.sh 42
+	42 is not prime
+	$ ./is_prime.sh 113
+	113 is prime
+
+And use that to write ./primes.sh, which prints out primes less than a given number.

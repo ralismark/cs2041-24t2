@@ -1,0 +1,8 @@
+Acc
+---
+
+`acc` on CSE prints information about a user.
+
+We want to get the list of courses that someone is *enrolled* in.
+
+./courses.sh z1234567
