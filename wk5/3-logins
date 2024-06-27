@@ -1,0 +1,16 @@
+Logins
+------
+
+Using case *only*:
+
+1. Number of logins from uniwide
+
+	logins-1.sh < logins.txt
+
+	(or: grep -c uniwide-pat-pool logins.txt)
+
+2. Distribution by first digit of zID
+
+	logins-2.sh < logins.txt
+
+	(or: cut -c1-2 logins.txt | grep -E '^z[0-9]$' | sort | uniq -c)

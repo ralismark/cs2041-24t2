@@ -1,0 +1,15 @@
+Extract
+-------
+
+Given one or more archive files as command line arguments, use the correct program to extract the files.
+
+e.g. ./extract.sh a.tar.gz b.zip
+
+(using case & functions)
+
+---
+
+Notes about functions:
+- Variables set in a function are visible outside the function
+- Can import functions from other files via sourcing -- . ./functions.sh
+- Declaring a function with the same name as an existing one overwrites the old one

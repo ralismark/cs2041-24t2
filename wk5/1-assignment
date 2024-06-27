@@ -1,0 +1,18 @@
+Give
+----
+
+Reference implementation assignment -- not all behaviour listed in the spec
+(e.g. error messages)
+
+What to submit?
+- give-* (and additional scripts if needed)
+- 10 test scripts
+
+Submit regularly, you can get backups from
+<https://cgi.cse.unsw.edu.au/~cs2041/current/student/>
+
+Style marking: see guide on course website. Mostly:
+- Header comment!
+- Good use of comments & blank lines to show overall structure
+- Variable names & comments to explain what the code is doing
+- (less important: using additional script files & functions)
