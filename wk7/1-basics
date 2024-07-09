@@ -1,0 +1,14 @@
+Python Basics (ans)
+-------------------
+
+- running python interactively
+  -> python3
+  (just python is often python2, which is incompatible)
+- what python version?
+  -> 3.11
+- where to get documentation?
+  -> run python3, then help(...) e.g. help(open)
+  -> https://docs.python.org/3.11/, "Tutorial" and "Library reference"
+- what to use instead of #!/usr/bin/env dash?
+  -> #!/usr/bin/env python3
+  (since we want to find python via $PATH)

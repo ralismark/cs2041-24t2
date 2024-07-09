@@ -1,0 +1,7 @@
+Head
+----
+
+Support optional -<n> argument:
+print first n lines of stdin (default to 10)
+
+e.g. head -5

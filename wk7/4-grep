@@ -1,0 +1,14 @@
+Grep
+----
+
+import re
+
+- re.search (anywhere in string), re.match (at the start), re.fullmatch (match entire string)
+- r"..." to avoid needing to escape backslashes (e.g. \s)
+
+Find words from dictionary.txt that:
+
+1. start with 3 vowels
+2. have 4 consecutive vowels
+
+Also print matching part of word
