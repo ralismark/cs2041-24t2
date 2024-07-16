@@ -1,0 +1,6 @@
+Missing words
+-------------
+
+Usage: ./missing_words.py words1 words2
+
+Print words in words1 but not words2. Files have one word on each line.

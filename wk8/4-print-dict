@@ -1,0 +1,10 @@
+Print Dict
+----------
+
+Write a function that displays the contents of a dict in the following format:
+
+     key: value
+  Andrew: green
+    Anne: red
+    John: blue
+       a: ligned

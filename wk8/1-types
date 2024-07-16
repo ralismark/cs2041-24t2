@@ -1,0 +1,23 @@
+Python Types
+------------
+
+What are types?
+
+	Unlike shell (but like C), values have types which determine what you can do with them
+
+How do you see the type of something?
+
+	type(value)
+
+How do you figure out what you can do with a type?
+
+	help(type(value)) or simply help(value)
+
+There's roughly 8 built-in types -- can you name + explain them?
+
+	str int bool float
+	list tuple dict set
+
+	Bonus uncommon ones: NoneType object function
+
+There's more in the standard library: collections.Counter, collections.defaultdict (and others)

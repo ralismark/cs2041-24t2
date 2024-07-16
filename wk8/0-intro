@@ -1,0 +1,10 @@
+Week 8
+------
+
+Assignment 2 released! "Git Reimplemented In Python"
+
+- Same structure: reference implementation + test scripts
+- Code style: comments + whitespace + overall structure
+  Also docstrings for function (see lectures) and type hints
+
+Plan out your approach before you code!

@@ -1,0 +1,10 @@
+f-strings & functions
+---------------------
+
+f-strings are python's equivalent of printf
+
+e.g. f"{var} {1+1:20f}"
+
+Functions are a bit more featureful than C:
+- default arguments (though be careful of using lists/etc as default!)
+- named arguments
