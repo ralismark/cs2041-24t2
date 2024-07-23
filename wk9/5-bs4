@@ -1,0 +1,10 @@
+BeautifulSoup4
+--------------
+
+-> see tag-count-4.py
+
+Library for parsing HTML
+(since hard to parse with regex *correctly*: https://stackoverflow.com/a/1732454)
+
+package is called beautifulsoup4
+import bs4

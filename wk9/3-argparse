@@ -1,0 +1,14 @@
+argparse
+--------
+
+-> see tag-count-2.py
+
+import argparse
+
+Simpler argument parsing! Handles things like:
+- error handling
+- help message i.e. -h and --help
+- options and arguments being mixed (e.g. ls dir1 -l dir2)
+- using -- to stop argument parsing (e.g. rm -- -dash to remove a file called "-dash")
+
+See help(argparse) or https://docs.python.org/3/library/argparse.html

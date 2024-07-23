@@ -1,0 +1,24 @@
+Requests (and installing packages)
+----------------------------------
+
+-> tag-count-3.py
+
+Libraries not in the standard library can be found at https://pypi.org/
+- also includes summary (often with example)
+- usually links online help
+
+how to install package?
+
+  on CSE: if we want you to use it, it will be installed
+  outside of CSE: refer to lectures (keywords: pip, venv/virtualenv)
+
+how to get help online/offline?
+
+  offline: import requests; help(requests)
+  online: linked from pypi.org, or just google/etc
+
+    !! online help not available in exam environments !!
+
+----
+
+import requests -- for fetching webpages directly instead of subprocess + curl

@@ -1,0 +1,25 @@
+Grip
+----
+
+Grip ≈ git
+
+We'll have a look at how git and the reference implementation do things
+
+- what is in .git? (grip-init)
+
+  grip-init creates .grip (and whatever you want inside)
+  reference implementation uses git (see .grip/.reference)
+  you can do whatever you want in .grip
+
+- what is the index? (grip-add)
+
+  grip's "copy" of your files
+  may differ from the actual files
+  only updated when you run grip-add/grip-reset/grip-checkout
+
+- what is a commit? (grip-commit)
+
+  commits are snapshots of the index
+  grip-commit creates commits
+
+How to work with files in python? shutil, os

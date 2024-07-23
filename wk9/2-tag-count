@@ -1,0 +1,18 @@
+Tag Count
+---------
+
+-> see tag-count-1.py
+
+Usage: ./tag-count.py [-f | --frequency] <url>
+    -f prints tags by frequency (default unsorted)
+
+Fetches the webpage and counts how many of each open tag there are.
+
+e.g.
+
+$ ./tag-count.py https://unsw.edu.au/
+a 141
+body 1
+br 14
+div 161
+...
